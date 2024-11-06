@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Panel</title>
+    <style>
+        /* Basic styles for User Panel */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .panel-container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        h1 {
+            margin-bottom: 30px;
+            color: #333;
+        }
+
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .login-btn {
+            background-color: #007bff;
+        }
+
+        .login-btn:hover {
+            background-color: #0056b3;
+        }
+
+        .register-btn {
+            background-color: #28a745;
+        }
+
+        .register-btn:hover {
+            background-color: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel-container">
+        <h1>Welcome to Online Earning</h1>
+        
+        <!-- Login button -->
+        <a href="login.html" class="button login-btn">Login</a>
+        
+        <!-- Register button -->
+        <a href="register.html" class="button register-btn">Register</a>
+    </div>
+</body>
+</html>
